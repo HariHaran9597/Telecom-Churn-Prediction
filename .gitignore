@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Data
+*.csv
+*.xlsx
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Models - COMMENTED OUT FOR DEPLOYMENT
+# Uncomment these if models are too large (>100MB)
+# models/*.pkl
+# models/*.joblib
+!models/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
