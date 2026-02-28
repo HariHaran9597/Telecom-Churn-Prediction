@@ -181,7 +181,7 @@ st.markdown("""
             ⚡ TELECOM CHURN PREDICTION
         </h1>
         <p style='color: #FFD700; font-size: 1.3rem; opacity: 0.9;'>
-            AI-Powered Customer Retention & Business Impact Analysis
+             Customer Retention & Business Impact Analysis
         </p>
     </div>
 """, unsafe_allow_html=True)
@@ -207,7 +207,7 @@ st.sidebar.markdown("""
     <div style='padding: 1.5rem; background-color: #1a1a1a; border: 2px solid #FFD700; border-radius: 10px; margin-top: 1rem;'>
         <h3 style='color: #FFD700; font-size: 1.1rem; margin-bottom: 0.5rem;'>💡 ABOUT</h3>
         <p style='color: #FFD700; font-size: 0.95rem; margin: 0; opacity: 0.9;'>
-            This AI system predicts customer churn and calculates business impact with ROI analysis.
+            This system predicts customer churn and calculates business impact with ROI analysis.
         </p>
     </div>
 """, unsafe_allow_html=True)
